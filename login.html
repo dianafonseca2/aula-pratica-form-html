@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Página de login</title>
+
+        <style type="text/css">
+        form {
+            margin: 0 auto;
+            width: 400px;
+            padding: 1em;
+            border: 0px solid black;
+            border-radius: 1em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: white;
+        } 
+        body {
+            background-color: #e8f0fe;
+        }
+        .sub1, .sub2 {
+            background-color: #1877f2;
+            font-weight: bold;
+            border: none;
+            color: white;
+            height: 25px; width: 80px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
+        </style>
+    </head>
+    <body>
+        <form>
+            <legend style="text-align: center; font-size: 38px;" >Login</legend>
+
+            <br><br>
+
+            <input type="text" id="usuario" name="usuario" placeholder="Usuário" required>
+
+            <br><br>
+
+            <input type="password" id="senha" name="senha" placeholder="Senha" required>
+            <a href="" style="text-decoration: none;  color: #1877f2;">Esqueceu a senha? </a>
+
+            <br><br>
+
+            <input type="submit" class="sub1" value="Entrar">
+            <input type="button" class="sub2" value="Cadastrar"> 
+        </form>
+    </body>
+</html>
